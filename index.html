@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>geolocation</title>
+</head>
+
+<body>
+    
+    <p id="mypub">MY Public IP ADDRESS : <span id="ipadd"></span></p>
+    <button type="button" id="gdata" onclick="getdata()">Get Data</button>
+    <div class="main">
+
+        <div class="grid">
+            <p>Lat : <span id="lat"> </span></p>
+            <p>City : <span id="city"> </span></p>
+            <p>Organization : <span id="org"> </span></p>
+            <p>Long : <span id="long"> </span></p>
+            <p>Region : <span id="region"> </span></p>
+            <p>Hostname :<span id="host"> </span></p>
+        </div>
+        <iframe id="ifrm" width="100%" height="400px" frameborder="0" margin="25px 0px" style="border:0"></iframe>
+        <p>Time Zone : <span id="tz"></span></p>
+        <p>Date And Time : <span id="dt"></span></p>
+        <p>Pincode : <span id="pin"></span></p>
+        <p>Message : <span id="npin"></span></p>
+        <input type="text" class="icon"  placeholder="Search">
+        <div id="grd2">
+      
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

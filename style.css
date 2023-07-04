@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Montserrat:wght@300;400;500;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+.main {
+    margin: 20px 80px 20px 80px;
+    display: none;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 2;
+    margin-bottom: 15px !important;
+}
+#gdata {
+    margin: 5px 0px 5px 80px;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 8px 40px;
+}
+.grid > p {
+    font-size: 25px;
+    font-weight: 500;
+}
+.main > p {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+.icon {
+    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
+    background-size: 20px;
+    width: 100%;
+    padding: 10px 30px !important;
+    margin: 10px 0px 20px 0px;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+#grd2 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:30px;
+  
+}
+#grd2 .item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid black !important;
+    border-radius: 10px;
+    padding: 15px 25px 15px 35px;
+}
+.item ul li {
+    color: #000000;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 5px 0px;
+    list-style: none;
+    letter-spacing: 1.8;
+}
+#mypub {
+    margin: 40px 80px 5px 80px;
+    font-size: 25px;
+    font-weight: 500;
+}
